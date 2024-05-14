@@ -1,0 +1,33 @@
+body{
+    background-color: #E6B17E;
+    margin: 0px;
+}
+
+h1{
+    color: #551E19;
+    padding: 10px;
+}
+
+.left, .right{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #c38851;
+    width: 40vw;
+    margin: 0vw 5vw;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: #9D514AA6 3px 3px;;
+    /* border: 1px solid brown; */
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media screen and (max-width: 625px){
+    .left, .right{
+        display: block;
+        width: 100vw;
+        margin: 10px;
+    }
+}
