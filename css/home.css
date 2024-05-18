@@ -49,7 +49,7 @@ footer {
 
 .main-cont {
   /* flex: 1; Take up 50% of the width on large screens */
-  color: rgb(255, 204, 0);
+  color: #B46417;
   font-size: 60px;
   font-style: italic;
   text-align: center; /* Adjust padding for better alignment */
